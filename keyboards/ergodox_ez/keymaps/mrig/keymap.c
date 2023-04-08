@@ -34,11 +34,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   |AltGui|  '"  |AltShf| LGui |  Alt |                                       |   #  |   \  |   -  |  =   |Version|
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,--------------.
- *                                        | Del  | BS   |       |QWERTY |DVORAK|
+ *                                        | Del  | BS   |       | HOME  | END  |
  *                                 ,------|------|------|       |-------+------+------.
  *                                 |      |      | Home |       | PgUp  |      |      |
  *                                 | Ctrl/|BackSp|------|       |-------| Tab  |Enter |
- *                                 | Space|      | End  |       | PgDn  |      |      |
+ *                                 | Space|      | Alt  |       | PgDn  |      |      |
  *                                 `--------------------'       `---------------------'
  * removed but useful MO(SYMB) DF(BASE)
  */
